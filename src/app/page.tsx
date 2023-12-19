@@ -31,7 +31,7 @@ export default function Home() {
         className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
         href='https://github.com/nerrog/'
         >
-          <Image src={`${BASE_PATH}/github-mark-white.svg`} width={30} height={30}/>
+          <Image src={`${BASE_PATH}/github-mark-white.svg`} width={30} height={30} alt="github logo"/>
           <h2 className={`mb-3 text-2xl font-semibold`}>
             Github{' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
@@ -47,7 +47,7 @@ export default function Home() {
         className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
         href='https://twitter.com/nerrog_blog'
         >
-          <Image src={`${BASE_PATH}/x-logo.svg`} width={30} height={30}/>
+          <Image src={`${BASE_PATH}/x-logo.svg`} width={30} height={30} alt="x logo"/>
           <h2 className={`mb-3 text-2xl font-semibold`}>
             X(Twitter){' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
